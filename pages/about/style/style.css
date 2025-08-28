@@ -1,0 +1,43 @@
+body {
+    background-image: url("../../../resources/images/bg/IMG_20250822_055659.jpg");
+    background-size: cover;
+    color: var(--white);
+}
+
+.profile {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    width: 100%;
+}
+
+.profile ul{
+    list-style: none;
+    padding: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.profile ul li{
+    font-size: 130%;
+}
+
+.profile h1{
+    font-size: 3rem;
+}
+
+.profile img{
+    width: 300px;
+}
+
+.profile-content {
+    background-color: var(--dark-mode);
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+}
