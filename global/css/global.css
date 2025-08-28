@@ -12,6 +12,7 @@
     --text-color: #000;
     --accent-color: #0074cc;
     --dark-mode: #363636;
+    --dark-inv: rgba(36, 36, 36, 0.568);
     --gray: #aac4fa;
     --highlight-color: #FFF9AF;
 }
@@ -72,6 +73,11 @@
     transition: all 0.2s ease-in-out;
     scroll-behavior: smooth;
     font-family: Raleway, sans-serif;
+}
+
+body{
+    background-size: cover;
+    background-position: center;
 }
 
 a {
@@ -238,11 +244,17 @@ body {
 main {
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
     z-index: 1;
 }
 
