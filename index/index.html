@@ -10,7 +10,25 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="sidebar">
+        <div class="sidebar-content">
+          <h1>山下真琴</h1>
+          <button onclick="sidebar()">
+            <div class="close-icon">
+              <div class="line"></div>
+            </div>
+          </button>
+        </div>
+
+        <ul id="ul-sidebar">
+          <a href="index.html"><li>Home</li></a>
+          <a href="about.html"><li>About</li></a>
+          <a href="contact.html"><li>Contact</li></a>
+          <a href="project.html"><li>Projects</li></a>
+          <a href="blog.html"><li>Blog</li></a>
+        </ul>
+      </nav>
+      <nav class="navbar">
         <ul>
           <a href="index.html"><li>Home</li></a>
           <a href="about.html"><li>About</li></a>
@@ -19,12 +37,6 @@
           <a href="blog.html"><li>Blog</li></a>
         </ul>
       </nav>
-      <div class="slider-input">
-        <!-- <label for="">
-          <input type="radio">
-          <span class="slider"></span>
-        </label>   -->
-      </div>
     </header>
     <main>
       <div alt="" class="bg"></div>
@@ -38,9 +50,23 @@
             Bekasi Lorem ipsum dolor sit amet.
           </p>
           <ul class="social">
-            <li><a href="https://github.com/kagaya-01" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/hibban-ahmad-ibrahim-b05634379/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
-            <li><a href="https://www.instagram.com/kagaya.01/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li>
+              <a href="https://github.com/kagaya-01" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/hibban-ahmad-ibrahim-b05634379/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/kagaya.01/" target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
             <li></li>
           </ul>
           <div class="btn-option fade-up">
@@ -75,7 +101,8 @@
 
         <div class="footer-social">
           <h4>Follow</h4>
-          <a href="https://www.instagram.com/kagaya.01/">Instagram</a> | <a href="#">Facebook</a> |
+          <a href="https://www.instagram.com/kagaya.01/">Instagram</a> |
+          <a href="#">Facebook</a> |
           <a href="#">Twitter</a>
         </div>
       </div>
@@ -84,6 +111,7 @@
       </div>
     </footer>
   </body>
+  <script src="../global/script/script.js"></script>
   <script src="../pages/index/script/script.js"></script>
   <script
     src="https://kit.fontawesome.com/f65a8d8213.js"
