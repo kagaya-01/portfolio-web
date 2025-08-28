@@ -105,7 +105,7 @@ body {
 
 .progress-bar {
     width: 100%;
-    background: #ddd;
+    background: var(--dark-mode);
     border-radius: 10px;
     overflow: hidden;
     height: 20px;
