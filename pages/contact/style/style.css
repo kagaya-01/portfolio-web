@@ -1,4 +1,4 @@
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 1000px){
     section{
         margin-top: 1rem;
     }
@@ -18,16 +18,16 @@
     }
 
     input{
-        background-color: rgba(0, 0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.007);
         backdrop-filter: blur(var(--backdrop-value));
     }
 
     textarea{
-        background-color: rgba(0, 0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.007);
         backdrop-filter: blur(var(--backdrop-value));
     }
 }
-@media only screen and (min-width: 401px) {
+@media only screen and (min-width: 1001px) {
     section{
         margin-top: 4rem;
     }

@@ -163,11 +163,11 @@ main{
 }
 
 .social li:nth-child(3) {
-    animation-delay: calc(var(--ani-delay) + 0.3s);
+    animation-delay: calc(var(--ani-delay) + 0.2s);
 }
 
 .social li:nth-child(4) {
-    animation-delay: calc(var(--ani-delay) + 0.5s);
+    animation-delay: calc(var(--ani-delay) + 0.3s);
 }
 
 .btn-option{
@@ -223,7 +223,7 @@ main{
     animation-delay: var(--ani-delay);
 }
 .btn-option button:nth-child(2) {
-    animation-delay: calc(var(--ani-delay) + 0.2s);
+    animation-delay: calc(var(--ani-delay) + 0.1s);
 }
 
 #circle{

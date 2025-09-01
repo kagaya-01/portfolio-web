@@ -75,7 +75,7 @@
             </ul>
           </div>
           <div class="form-container">
-            <form id="contactForm" novalidate>
+            <form id="contactForm" onsubmit="sendEmail(event)" novalidate>
               <!-- honeypot to trap bots -->
               <input
                 type="text"
@@ -86,9 +86,9 @@
               />
 
               <div class="grid">
-                <div>
+                <div id="name-con">
                   <label for="name"
-                    >Nama
+                    >Name
                     <input
                       id="name"
                       name="name"
@@ -99,7 +99,7 @@
                   </label>
                 </div>
 
-                <div>
+                <div id="email-con">
                   <label for="email"
                     >Email
                     <input
@@ -112,9 +112,9 @@
                   </label>
                 </div>
 
-                <div class="full">
+                <div id="subject-con">
                   <label for="subject"
-                    >Subjek
+                    >Subject
                     <input
                       id="subject"
                       name="subject"
@@ -123,9 +123,9 @@
                   </label>
                 </div>
 
-                <div class="full">
+                <div id="message-con">
                   <label for="message"
-                    >Pesan
+                    >Message
                     <textarea
                       id="message"
                       name="message"
@@ -145,7 +145,7 @@
                 ></div>
               </div>
 
-              <div class="btn">
+              <div class="btn fade-up">
                 <button type="submit" id="sendBtn">Kirim Pesan</button>
               </div>
             </form>
@@ -174,9 +174,9 @@
         <p>&copy; 2025 Hibban Ahmad Ibrahim. All Rights Reserved.</p>
       </div>
     </footer>
+      <script src="../pages/contact/script/script.js"></script>
   </body>
   <script src="../global/script/script.js"></script>
-  <script src="../pages/index/script/script.js"></script>
   <script
     src="https://kit.fontawesome.com/f65a8d8213.js"
     crossorigin="anonymous"
