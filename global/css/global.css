@@ -90,11 +90,6 @@
     font-family: Raleway, sans-serif;
 }
 
-body {
-    background-size: cover;
-    background-position: center;
-}
-
 a {
     color: var(--white);
     text-decoration: none;
@@ -254,6 +249,8 @@ body {
     display: grid;
     min-height: 100vh;
     grid-template-rows: auto 1fr auto;
+    background-size: cover;
+    background-position: center;
 }
 
 main {
