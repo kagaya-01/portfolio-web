@@ -39,6 +39,7 @@ section{
 }
 
 .content{
+    animation: fadeIn var(--ani-duration) ease forwards;
     width: 100%;
     box-sizing: border-box;
     padding: 2rem;

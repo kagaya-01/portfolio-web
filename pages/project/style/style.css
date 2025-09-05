@@ -18,6 +18,7 @@ section{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    animation: fadeIn var(--ani-duration) ease forwards;
 }
 
 .header{
