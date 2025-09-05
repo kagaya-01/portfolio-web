@@ -95,6 +95,11 @@ body{
     background-position: center;
 }
 
+body {
+    color: white;
+    background-image: url('../../../resources/images/bg/pexels-suissounet-2101187.jpg');
+}
+
 a {
     color: var(--white);
     text-decoration: none;
@@ -254,7 +259,6 @@ body {
     display: grid;
     min-height: 100vh;
     grid-template-rows: auto 1fr auto;
-    color: var(--text-color);
 }
 
 main {
