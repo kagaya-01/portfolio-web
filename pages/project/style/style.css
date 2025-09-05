@@ -10,6 +10,11 @@
     }
 }
 
+body {
+    color: white;
+    background-image: url('../../../resources/images/bg/pexels-suissounet-2101187.jpg');
+}
+
 section{
     margin-top: 4rem;
 }

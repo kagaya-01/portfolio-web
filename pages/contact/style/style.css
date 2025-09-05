@@ -57,6 +57,11 @@
     }
 }
 
+body {
+    color: white;
+    background-image: url('../../../resources/images/bg/pexels-suissounet-2101187.jpg');
+}
+
 section{
     width: 100%;
     display: flex;
@@ -78,8 +83,7 @@ section{
 .content{
     display: flex;
     flex-direction: column;
-}
-
+    }
 .content h1{
     font-size: 350%;
 }
