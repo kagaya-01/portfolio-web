@@ -19,7 +19,7 @@ function sidebar() {
 
     else if(isOpened) { 
         isOpened = false;
-        sidebarContainer.style.setProperty('left', '-8.5rem');
+        sidebarContainer.style.setProperty('left', '-10rem');
         sidebarContainer.style.setProperty('backdrop-filter', 'blur(0px)');
         sidebarBtn.style.setProperty("--rotate-before", "rotate(0deg)");
         sidebarBtn.style.setProperty("--rotate-after", "rotate(0deg)");
